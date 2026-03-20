@@ -8,3 +8,9 @@
 - c++, oop
 - js, node js
 - html, css
+## Education:
+### State Engineering University of Armenia
+## Languages:
+- Armenian
+- Russian
+- English
