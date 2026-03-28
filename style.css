@@ -64,6 +64,7 @@ nav ul li:hover{
 nav a{
     color:rgb(19, 20, 20);
     text-decoration: none;
+    white-space: nowrap;
 }
 #about{
     max-width: 600px;
@@ -101,6 +102,23 @@ nav a{
     margin: 0 auto;
     
 }
+#languages {
+    max-width: 600px;
+    margin: 0px auto;
+   
+}
+#languages ul {
+    list-style: none;
+    background-color: rgba(139, 126, 200,40%);
+    border-radius: 20px;
+    padding: 20px;
+    list-style: none;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+#languages ul li {
+    margin-bottom: 8px;
+}
 .skills-container{
     display: flex;
     justify-content: space-between;
@@ -132,6 +150,26 @@ nav a{
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
     text-align: justify;
 }
+#code-examples{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#code-examples h3{
+    white-space: nowrap;
+}
+#code-examples pre{
+    background-color: rgba(139, 126, 200,40%);
+    padding: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    overflow-x: auto;
+}
+#code-examples code{
+    font-family: Arial;
+    color: #0a0a0a;
+    font-size: 16px;
+    line-height: 1.6;
+}
 
 .github-image{
     width: 30px;
@@ -146,4 +184,7 @@ nav a{
 
 footer{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
 }
